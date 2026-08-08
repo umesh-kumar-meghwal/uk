@@ -73,10 +73,13 @@
     {
         "name": "Programing",
         "icon": "https://img.icons8.com/color/48/000000/c.png"
+<<<<<<< HEAD
     },
     {
         "name":"Laravel",
         "icon":"https://img.icons8.com/color/48/000000/laravel.png"
+=======
+>>>>>>> 2d4fd40309f1de058a7e53c4768779a9c6059062
     }
     
     
