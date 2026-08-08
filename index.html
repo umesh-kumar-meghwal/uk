@@ -133,28 +133,24 @@
   </section>
   <!-- hero section ends -->
 
-  <script>
-        const dob = new Date(2005, 1, 24);  
 
-        function calculateAge() {
-            const today = new Date();
+<script>
+const dob = new Date(2005, 0, 24);  
 
-            let age = today.getFullYear() - dob.getFullYear();
+const today = new Date();
 
-            const month = today.getMonth() - dob.getMonth();
+let age = today.getFullYear() - dob.getFullYear();
 
-            if (
-                month < 0 ||
-                (month === 0 && today.getDate() < dob.getDate())
-            ) {
-                age--;
-            }
+if (
+    today.getMonth() < dob.getMonth() ||
+    (today.getMonth() === dob.getMonth() &&
+     today.getDate() < dob.getDate())
+) {
+    age--;
+}
 
-            document.getElementById("age").textContent = age + " Years";
-        }
-
-        calculateAge();
-    </script>
+document.getElementById("age").textContent = age + " Years";
+</script>
 
   <!-- about section starts -->
   <section class="about" id="about">
