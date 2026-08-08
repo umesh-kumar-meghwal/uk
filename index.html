@@ -134,22 +134,27 @@
   <!-- hero section ends -->
 
   <script>
-    const dob = new Date("2005-01-24");
-    const today = new Date();
+        const dob = new Date(2005, 1, 24);  
 
-    let age = today.getFullYear() - dob.getFullYear();
+        function calculateAge() {
+            const today = new Date();
 
-    const monthDiff = today.getMonth() - dob.getMonth();
+            let age = today.getFullYear() - dob.getFullYear();
 
-    if (
-      monthDiff < 0 ||
-      (monthDiff === 0 && today.getDate() < dob.getDate())
-    ) {
-      age--;
-    }
+            const month = today.getMonth() - dob.getMonth();
 
-    document.getElementById("age").textContent = age;
-  </script>
+            if (
+                month < 0 ||
+                (month === 0 && today.getDate() < dob.getDate())
+            ) {
+                age--;
+            }
+
+            document.getElementById("age").textContent = age + " Years";
+        }
+
+        calculateAge();
+    </script>
 
   <!-- about section starts -->
   <section class="about" id="about">
