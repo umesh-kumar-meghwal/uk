@@ -133,24 +133,38 @@
   </section>
   <!-- hero section ends -->
 
+  <script>
+    function calculateAge() {
+      const dob = new Date(2005, 0, 24);
+      const today = new Date();
 
-<script>
-const dob = new Date(2005, 0, 24);  
+      let years = today.getFullYear() - dob.getFullYear();
+      let months = today.getMonth() - dob.getMonth();
+      let days = today.getDate() - dob.getDate();
 
-const today = new Date();
+      if (days < 0) {
+        months--;
 
-let age = today.getFullYear() - dob.getFullYear();
+        const previousMonth = new Date(
+          today.getFullYear(),
+          today.getMonth(),
+          0
+        );
 
-if (
-    today.getMonth() < dob.getMonth() ||
-    (today.getMonth() === dob.getMonth() &&
-     today.getDate() < dob.getDate())
-) {
-    age--;
-}
+        days += previousMonth.getDate();
+      }
 
-document.getElementById("age").textContent = age + " Years";
-</script>
+      if (months < 0) {
+        years--;
+        months += 12;
+      }
+
+      document.getElementById("age").textContent =
+        `${years} Years, ${months} Months, ${days} Days`;
+    }
+
+    calculateAge();
+  </script>
 
   <!-- about section starts -->
   <section class="about" id="about">
@@ -170,7 +184,8 @@ document.getElementById("age").textContent = age + " Years";
           backends. I am undergoing training in software development at<b><a href="https://www.vgtindia.org/"
               style="color:black;text-decoration:none;"> VGT Kota</a></b>.
           This program is helping me build strong practical and technical skills in modern software technologies. I
-          enjoy turning ideas into working products with clean UI and reliable APIs. and my age <span id="age"></span> years old</p>
+          enjoy turning ideas into working products with clean UI and reliable APIs. and my age <span id="age"></span>
+          old</p>
 
         <div class="box-container">
           <!-- <div class="box">
