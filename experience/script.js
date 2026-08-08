@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $(document).ready(function(){
 
     $('#menu').click(function(){
@@ -62,7 +61,8 @@ function(){
         document.title = "Come Back To Portfolio";
         $("#favicon").attr("href","/assets/images/favhand.png");
     }
-=======
+});
+
 $(document).ready(function(){
 
     $('#menu').click(function(){
@@ -126,5 +126,5 @@ function(){
         document.title = "Come Back To Portfolio";
         $("#favicon").attr("href","/assets/images/favhand.png");
     }
->>>>>>> 2d4fd40309f1de058a7e53c4768779a9c6059062
+
 });

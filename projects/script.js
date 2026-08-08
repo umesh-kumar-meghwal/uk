@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 $(document).ready(function () {
 
     $('#menu').click(function () {
@@ -123,7 +123,7 @@ document.onkeydown = function (e) {
     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
         return false;
     }
-=======
+}
 $(document).ready(function () {
 
     $('#menu').click(function () {
@@ -248,5 +248,4 @@ document.onkeydown = function (e) {
     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
         return false;
     }
->>>>>>> 2d4fd40309f1de058a7e53c4768779a9c6059062
 }
