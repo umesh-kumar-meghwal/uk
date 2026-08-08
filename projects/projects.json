@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Medicine Finder",
+    "desc": "Search medicines, view availability, and manage inventory with a lightweight dashboard. Python (Flask + SQL)",
+    "image": "work-1",
+    "category": "flask",
+    "links": {
+      "view": "https://medicine-finder-jrlh.onrender.com/",
+      "code": "https://github.com/unesh525"
+    }
+  },
+  {
+    "name": "Student Fee Management",
+    "desc": "Python (Flask + SQL)Track payments, dues, and send reminders with exportable reports.",
+    "image": "work-2",
+    "category": "flask",
+    "links": {
+      "view": "https://student-fee-management-irvt.onrender.com/",
+      "code": "https://github.com/unesh525"
+    }
+  },
+  {
+    "name": "Food Order",
+    "desc": "Python (Django)Browse menus, add to cart, and place orders with basic admin panel.",
+    "image": "work-3",
+    "category": "django",
+    "links": {
+      "view": "https://food-delivery-158m.onrender.com",
+      "code": "https://github.com/unesh525"
+    }
+  },
+  {
+    "name": "Photo Studio",
+    "desc": "PHP Web Application Home Page , Contact Page, Category Wise Services , and Admin Panel to upload Photo banner Ads",
+    "image": "work-5",
+    "category": "php",
+    "links": {
+      "view": "https://elitevision-photography.gt.tc/",
+      "code": "https://elitevision-photography.gt.tc/"
+    }
+  },
+   {
+    "name": "E - Learning Platform",
+    "desc": "Python (Djangp + sqlite) Our E-Learning Platform is designed to make online learning simple, secure, and accessible for every student.",
+    "image": "work-4",
+    "category": "django",
+    "links": {
+      "view": "https://github.com/unesh525",
+      "code": "https://github.com/jigar-sable/weatherly-android"
+    }
+  }
+]
+
+
