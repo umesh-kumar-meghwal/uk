@@ -105,7 +105,7 @@
     <div class="content">
       <h2>Hi There,<br /> I'm Umesh <span>Kumar Meghwal</span></h2>
       <p>i am into <span class="typing-text"></span></p>
-
+      
       <a href="https://wa.me/918000509635" class="btn"><span>Hire Me</span>
         <i class="fas fa-arrow-circle-down"></i>
       </a>
@@ -133,38 +133,6 @@
   </section>
   <!-- hero section ends -->
 
-  <script>
-    function calculateAge() {
-      const dob = new Date(2005, 0, 24);
-      const today = new Date();
-
-      let years = today.getFullYear() - dob.getFullYear();
-      let months = today.getMonth() - dob.getMonth();
-      let days = today.getDate() - dob.getDate();
-
-      if (days < 0) {
-        months--;
-
-        const previousMonth = new Date(
-          today.getFullYear(),
-          today.getMonth(),
-          0
-        );
-
-        days += previousMonth.getDate();
-      }
-
-      if (months < 0) {
-        years--;
-        months += 12;
-      }
-
-      document.getElementById("age").textContent =
-        `${years} Years, ${months} Months, ${days} Days`;
-    }
-
-    calculateAge();
-  </script>
 
   <!-- about section starts -->
   <section class="about" id="about">
@@ -177,15 +145,11 @@
       </div>
       <div class="content">
         <h3>I'm Umesh</h3>
-        <span class="tag">Software Developer</span>
-        <h2>Founder : - <a href="https://webshaktii.netlify.app">Web Shakti Kota</a></h2>
-        <p>Hi, I’m Umesh Kumar Meghwal — a passionate, self‑driven developer. I build responsive websites, dashboards,
-          and small
-          backends. I am undergoing training in software development at<b><a href="https://www.vgtindia.org/"
-              style="color:black;text-decoration:none;"> VGT Kota</a></b>.
-          This program is helping me build strong practical and technical skills in modern software technologies. I
-          enjoy turning ideas into working products with clean UI and reliable APIs. and my age 21
-          old</p>
+        <span class="tag">Full Stack Developer</span>
+        <h2>Founder : - <a href="https://webshakti.netlify.app">Web Shakti Kota</a></h2>
+        <p>Hi, I’m Umesh Kumar Meghwal  — a passionate, self‑driven developer. I build responsive websites, dashboards, and small
+          backends. I am undergoing training in software development at<b><a href="https://www.vgtindia.org/" style="color:black;text-decoration:none;">  VGT Kota</a></b>.
+This program is helping me build strong practical and technical skills in modern software technologies. I enjoy turning ideas into working products with clean UI and reliable APIs. and my age 21 years old</p>
 
         <div class="box-container">
           <!-- <div class="box">
@@ -239,46 +203,46 @@
 
     <div class="box-container">
       <a href="https://www.modiedukota.org/">
-        <div class="box">
-          <div class="image">
-            <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
-          </div>
-          <div class="content">
-            <h3>Bachelor of Computer Application </h3>
-            <p>
-              Modi institute of technology kota| MIMT Kota</p>
-            <h4>2025-Pursuing </h4>
-          </div>
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
         </div>
-      </a>
-
+        <div class="content">
+          <h3>Bachelor of Computer Application </h3>
+          <p>
+Modi institute of technology kota| MIMT Kota</p>
+          <h4>2025-Pursuing </h4>
+        </div>
+      </div>
+ </a>
+      
       <a href="https://www.vgtindia.org/index.html">
-        <div class="box">
-          <div class="image">
-            <img draggable="false" src="./assets/images/educat/training.webp" alt="">
-          </div>
-          <div class="content">
-            <h3>Software Development </h3>
-            <p>VGT Software
-              Technologies Pvt. Ltd. | VGT Kota </p>
-            <h4>2025- Present</h4>
-          </div>
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="./assets/images/educat/training.webp" alt="">
         </div>
-      </a>
-
-      <a href="https://www.icbse.com/schools/tarun-bharti-sr-sec-sch-sangod-4n16dl#map-location">
-        <div class="box">
-          <div class="image">
-            <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
-          </div>
-          <div class="content">
-            <h3>Higher Secondary School </h3>
-            <p>Tarun Bharti Sr Sec School Sangod kota Rajasthan| RBSE</p>
-            <h4>2023-2024 | Completed</h4>
-          </div>
+        <div class="content">
+          <h3>Software Development </h3>
+          <p>VGT Software
+Technologies Pvt. Ltd. | VGT Kota </p>
+          <h4>2025- Present</h4>
         </div>
+      </div>
       </a>
-
+ 
+       <a href="https://www.icbse.com/schools/tarun-bharti-sr-sec-sch-sangod-4n16dl#map-location">
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Higher Secondary School </h3>
+          <p>Tarun Bharti Sr Sec School Sangod kota Rajasthan| RBSE</p>
+          <h4>2023-2024 | Completed</h4>
+        </div>
+      </div>
+ </a>
+      
     </div>
   </section>
   <!-- education section ends -->
@@ -316,7 +280,7 @@
             <h2>Self Employed</h2>
           </div>
           <div class="desc">
-            <h3>Software Developer</h3>
+            <h3>Full Stack Developer</h3>
             <p> 2024 - present</p>
           </div>
         </div>
@@ -374,25 +338,23 @@
         <div class="image-box">
           <img draggable="false" src="./assets/images/contact1.png" alt="">
         </div>
-        <form id="contactForm" class="needs-validation" novalidate>
+            <form id="contactForm" class="needs-validation" novalidate>
 
           <div class="form-group">
             <div class="field">
-              <input class="form-control" id="name" name="name" type="text" placeholder="Your name" required />
+                  <input class="form-control" id="name" name="name" type="text" placeholder="Your name" required />
               <i class='fas fa-user'></i>
             </div>
             <div class="field">
-              <input class="form-control" id="email" name="email" type="email" placeholder="you@example.com" required />
+                  <input class="form-control" id="email" name="email" type="email" placeholder="you@example.com" required />
               <i class='fas fa-envelope'></i>
             </div>
             <div class="field">
-              <input class="form-control" id="phone" name="phone" type="tel" inputmode="tel" pattern="[0-9+\-() ]{8,}"
-                placeholder="+91 8000509635" required />
+                  <input class="form-control" id="phone" name="phone" type="tel" inputmode="tel" pattern="[0-9+\-() ]{8,}" placeholder="+91 8000509635" required />
               <i class='fas fa-phone-alt'></i>
             </div>
             <div class="message">
-              <textarea class="form-control" id="message" name="message" rows="5" placeholder="Send Message"
-                required></textarea>
+                  <textarea class="form-control" id="message" name="message" rows="5" placeholder="Send Message" required></textarea>
               <i class="fas fa-comment-dots"></i>
             </div>
           </div>
@@ -501,8 +463,7 @@
 
           <a href="https://www.linkedin.com/in/umesh-kumar-meghwal" class="fab fa-linkedin" aria-label="LinkedIn"
             target="_blank"></a>
-          <a href="https://github.com/umesh-kumar-meghwal" class="fab fa-github" aria-label="GitHub"
-            target="_blank"></a>
+          <a href="https://github.com/unesh525" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
           <a href="mailto:umeshmeghwa605@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
           <a href="https://twitter.com/umeshkumarmeghwal" class="fab fa-twitter" aria-label="Twitter"
             target="_blank"></a>
@@ -555,3 +516,13 @@
 
 
 </html>
+
+
+
+
+
+
+
+
+
+
